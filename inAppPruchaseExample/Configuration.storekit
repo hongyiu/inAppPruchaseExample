@@ -1,0 +1,81 @@
+{
+  "identifier" : "947642AC",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1",
+      "familyShareable" : false,
+      "internalID" : "D4D7D288",
+      "localizations" : [
+        {
+          "description" : "Buy Gems",
+          "displayName" : "Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yiuyu.inAppPruchaseExample.Gems",
+      "referenceName" : "Gems",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2",
+      "familyShareable" : false,
+      "internalID" : "178F6B77",
+      "localizations" : [
+        {
+          "description" : "No Ads with Premium Content for $2",
+          "displayName" : "Premium Content",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yiuyu.inAppPruchaseExample.Premium",
+      "referenceName" : "AdsPremiumContent",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "F7F7D7F5",
+      "localizations" : [
+
+      ],
+      "name" : "Monthly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C8E51B39",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly premium content for $4",
+              "displayName" : "Monthly Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.yiuyu.inAppPruchaseExample.Monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "MonthlySubscription",
+          "subscriptionGroupID" : "F7F7D7F5",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
